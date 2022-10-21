@@ -30,7 +30,7 @@ public class GameThread extends Thread {
                     surfaceHolder.unlockCanvasAndPost(canvas);
                 }
             }
-            //llop time
+            //loop time
             loopTime = SystemClock.uptimeMillis() - startTime;
 
             //checkcking below
